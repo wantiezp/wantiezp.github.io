@@ -1,0 +1,14 @@
+$(document).ready(function () 
+{
+	if(Math.random()<0.5) 
+	{
+	// open
+	$("#opening-status").css('background-color', '#3d988a');
+	}
+	else
+	{
+	// close
+	$("#opening-status").css('background-color', 'green');
+	}    
+});
+
